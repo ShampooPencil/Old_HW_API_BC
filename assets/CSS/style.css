@@ -1,0 +1,41 @@
+body{
+    margin: 5%;
+}
+form, h2{
+    display: inline-block;
+}
+form{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+#MainHeader{
+    position: absolute;
+    font-size: 40px;
+    top: 15%;
+    left: 10%;
+
+}
+@media(max-width: 800px){
+    body{
+        text-justify: center;
+        text-align: center;
+        display: block;
+        margin: 5%;
+        /* font-size: 20px; */
+    }
+    #MainHeader{
+        font-size: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    form{
+        margin-top: 20px;
+        position: relative;
+        top: 0;
+        right: 0;
+
+    }
+}
